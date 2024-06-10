@@ -49,6 +49,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
   gem 'rubocop', require: false
   gem 'kramdown'
+  gem 'devise'
 end
 
 group :development do
